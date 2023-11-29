@@ -1,23 +1,30 @@
+type Post = {
+	userId: number;
+	id: number;
+	title: string;
+	body: string;
+};
+
 type User = {
 	id: number;
-	name: String;
+	name: string;
 	Stringtring;
-	email: String;
+	email: string;
 	address: {
-		street: String;
-		suite: String;
-		city: String;
-		zipcode: String;
+		street: string;
+		suite: string;
+		city: string;
+		zipcode: string;
 		geo: {
-			lat: String;
-			lng: String;
+			lat: string;
+			lng: string;
 		};
 	};
-	phone: String;
-	website: String;
+	phone: string;
+	website: string;
 	company: {
-		name: String;
-		catchPhrase: String;
-		bs: String;
+		name: string;
+		catchPhrase: string;
+		bs: string;
 	};
 };
